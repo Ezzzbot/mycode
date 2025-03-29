@@ -1,0 +1,77 @@
+ganguo:
+  model_path: ./models/ganguo.onnx
+  input_img_h: 128
+  input_img_w: 128
+  conf_classify: 0.8
+  #坩埚ROI区域
+  First:
+    start_x: 1464
+    start_y: 1013
+    end_x: 2034
+    end_y: 1560
+  Second:
+    start_x: 2025
+    start_y: 1013
+    end_x: 2595
+    end_y: 1541
+  Third:
+    start_x: 1478
+    start_y: 1572
+    end_x: 2045
+    end_y: 2124
+  Fourth:
+    start_x: 2042
+    start_y: 1576
+    end_x: 2598
+    end_y: 2121
+
+
+Re2000top:
+  model_path: ./models/danjia.onnx
+  input_img_h: 128
+  input_img_w: 128
+  conf_classify: 0.8
+  #弹夹ROI区域
+  Re2000top:
+    start_x: 10
+    start_y: 10
+    end_x: 118
+    end_y: 118
+
+
+Re2000bottom:
+  model_path: ./models/danjia.onnx
+  input_img_h: 128
+  input_img_w: 128
+  conf_classify: 0.8
+  Re2000bottom:
+    start_x: 128
+    start_y: 10
+    end_x: 246
+    end_y: 118
+
+fangzhi:
+  model_path: ./models/danjia.onnx
+  input_img_h: 128
+  input_img_w: 128
+  conf_classify: 0.8
+  fangzhi_1:
+    start_x: 256
+    start_y: 10
+    end_x: 374
+    end_y: 118
+  fangzhi_2:
+    start_x: 384
+    start_y: 10
+    end_x: 496
+    end_y: 118
+  fangzhi_3:
+    start_x: 506
+    start_y: 10
+    end_x: 624
+    end_y: 118
+  fangzhi_4:
+    start_x: 634
+    start_y: 10
+    end_x: 752
+    end_y: 118
