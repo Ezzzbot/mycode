@@ -10,15 +10,18 @@ class Classify:
     def __init__(self, task):
         # 加载配置文件
         self.config = ModelConfig(config_path='classify.yaml',model_name=task)
+
         # 打印 ROI 区域
         #ModelConfig.print_roi_regions(self.config)
+
         # 加载 ONNX 模型
         self.model_crucible_classify = cv2.dnn.readNetFromONNX(self.config.model_path)
+
         #分割区域次数
         self.times = 0
+
         #输出路径
         self.output_dir = './images'
-        # 确保输出目录存在
         os.makedirs(self.output_dir, exist_ok=True)
 
 
@@ -29,6 +32,7 @@ class Classify:
 
         # 转换为模型输入格式 (1, C, H, W)
         blob_ = cv2.dnn.blobFromImage(resized_image, scalefactor=1 / 255, swapRB=True)
+
         #print("预处理后的输入形状:", blob_.shape)
         return blob_
     # 裁剪区域
@@ -60,7 +64,7 @@ class Classify:
 
         print("图像处理完成！")
         return preprocessed_images
-    # 运行模型预测
+    # 运行模型预测，如果不需要裁剪区域，直接预处理即可
     def predict(self, image):
         if image is None:  # 检查图像是否成功读取,错误为0
             raise ValueError(f"无法读取图像")
@@ -88,7 +92,7 @@ class Classify:
         return results
 
 
-    # 分类逻辑
+    # 分类逻辑  现在只有两个分类的情况，后续可以扩展
     def _classify_result(self, outputs_cl):
         if outputs_cl[0][0] > self.config.conf_classify and outputs_cl[0][0] - outputs_cl[0][1] > self.config.conf_classify / 2:
             out_is = 'p'
@@ -103,6 +107,7 @@ class Classify:
 
 
 if __name__ == '__main__':
+
     task = 'ganguo'
     image = cv2.imread('Image_20250327100352268.jpg')
 
