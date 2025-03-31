@@ -1,4 +1,22 @@
 import yaml
+import os
+
+class GlobalConfig:
+    def __init__(self, config_path):
+        try:
+            # 加载 YAML 配置文件
+            with open(config_path, 'r', encoding='utf-8') as f:
+                config = yaml.safe_load(f)
+            # 是否保存图片
+            self.is_save_img = config.get('is_save_img')
+            # 配置输出路径
+            self.output_dir = config.get('output_dir')
+            # 创建输出目录（如果不存在）
+            os.makedirs(self.output_dir, exist_ok=True)
+        except FileNotFoundError:
+            raise FileNotFoundError(f"未找到配置文件 {config_path}，请检查文件路径！")  # 抛出异常
+        except yaml.YAMLError as e:
+            raise ValueError(f"解析 YAML 文件时出错: {e}")  # 抛出异常
 
 class ModelConfig:
     def __init__(self, config_path, model_name):
