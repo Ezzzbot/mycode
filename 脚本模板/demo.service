@@ -1,0 +1,15 @@
+[Unit]  #单元配置
+Description=My Minimal Service  #服务名称
+After=network.target  #在网络启动后启动
+
+[Service]   #服务配置
+Type=simple  #服务类型
+User=root  #运行服务的用户
+Restart=always  #重启策略
+RestartSec=3  #重启间隔
+WorkingDirectory=/home/nucros/404Arm6DRun/Arm6DAUBORun/  #工作目录
+#ExecStartPre=/bin/sleep 30  #启动前等待30秒
+ExecStart=/home/nucros/404Arm6DRun/Arm6DAUBORun/run_CD.sh  #启动命令
+
+[Install]  #安装配置
+WantedBy=multi-user.target  #在多用户环境下启动

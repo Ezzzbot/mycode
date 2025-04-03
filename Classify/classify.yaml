@@ -5,25 +5,25 @@ ganguo:
   conf_classify: 0.8
   #坩埚ROI区域
   First:
-    start_x: 1464
-    start_y: 1013
+    start_x: 1454
+    start_y: 1006
     end_x: 2034
-    end_y: 1560
+    end_y: 1567
   Second:
-    start_x: 2025
-    start_y: 1013
-    end_x: 2595
-    end_y: 1541
+    start_x: 2022
+    start_y: 999
+    end_x: 2603
+    end_y: 1560
   Third:
-    start_x: 1478
-    start_y: 1572
-    end_x: 2045
-    end_y: 2124
+    start_x: 1464
+    start_y: 1569
+    end_x: 2058
+    end_y: 2132
   Fourth:
-    start_x: 2042
-    start_y: 1576
-    end_x: 2598
-    end_y: 2121
+    start_x: 2038
+    start_y: 1563
+    end_x: 2607
+    end_y: 2124
 
 
 Re2000top:

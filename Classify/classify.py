@@ -119,8 +119,8 @@ class Classify:
 
 if __name__ == '__main__':
 
-    task = 'fangzhi'
-    image = cv2.imread(r'C:\Users\13053\OneDrive\Code\Classify\_home_tlq_test_hikImageGrap_Image_20250328160435967.jpg')
+    task = 'ganguo'
+    image = cv2.imread(r'C:\Users\13053\OneDrive\Code\Classify\Image_20250401163257694.jpg')
     print(f"任务：{task}")
     print("图像读取完成")
     # 初始化分类器

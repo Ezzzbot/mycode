@@ -1,3 +1,8 @@
+"""
+    config.py
+    读取yaml配置文件
+    author: tlq 2025.4.1
+"""
 import yaml
 import os
 
