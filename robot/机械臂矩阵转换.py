@@ -24,5 +24,7 @@ if __name__ == "__main__":
     m = [[-0.000976969,   -0.013449341,   104.533955109],
          [0.013193269, -0.001274517, -251.564401739],]
     result = a.get_points_robot(x_camera, y_camera, m)
+    print(f"转换的坐标为:{result}")
+
     tcp_cur = (80, -225)
     print(result[0] - tcp_cur[0], result[1] - tcp_cur[1])

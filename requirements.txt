@@ -1,0 +1,6 @@
+#codeの依赖
+
+pymodbus
+opencv-python
+pyyaml
+pyqt5
