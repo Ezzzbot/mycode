@@ -1,7 +1,7 @@
 ganguo:
   model_path: ./models/ganguo.onnx
-  input_img_h: 128
-  input_img_w: 128
+  input_img_h: 224
+  input_img_w: 224
   conf_classify: 0.8
   #坩埚ROI区域
   First:
@@ -26,55 +26,79 @@ ganguo:
     end_y: 2124
 
 
-Re2000top:
-  model_path: ./models/danjia.onnx
-  input_img_h: 128
-  input_img_w: 128
+Re2000_top:
+  model_path: C:\Users\13053\OneDrive\Code\Classify\models\Re2000_top.onnx
+  input_img_h: 224
+  input_img_w: 224
   conf_classify: 0.8
   #弹夹ROI区域
-  Re2000top:
-    start_x: 10
-    start_y: 10
-    end_x: 118
-    end_y: 118
+  Re2000top1:
+    start_x: 1635
+    start_y: 1363
+    end_x: 2116
+    end_y: 1762
+  Re2000top2:
+    start_x: 1635
+    start_y: 1796
+    end_x: 2116
+    end_y: 2188
 
 
-Re2000bottom:
-  model_path: ./models/danjia.onnx
-  input_img_h: 128
-  input_img_w: 128
+Re2000_bottom:
+  model_path: C:\Users\13053\OneDrive\Code\Classify\models\Re2000_bottom.onnx
+  input_img_h: 224
+  input_img_w: 224
   conf_classify: 0.8
   Re2000bottom:
-    start_x: 128
-    start_y: 10
-    end_x: 246
-    end_y: 118
+    start_x: 758
+    start_y: 350
+    end_x: 2979
+    end_y: 1671
 
 fangzhi:
-  model_path: C:\Users\13053\OneDrive\Code\Classify\models\danjia.onnx
-  input_img_h: 128
-  input_img_w: 128
+  model_path: C:\Users\13053\OneDrive\Code\Classify\models\fangzhi.onnx
+  input_img_h: 224
+  input_img_w: 224
   conf_classify: 0.8
   fangzhi_1:
-    start_x: 2270
-    start_y: 1262
-    end_x: 2481
-    end_y: 1515
+    start_x: 2445
+    start_y: 951
+    end_x: 2790
+    end_y: 1376
   fangzhi_2:
-    start_x: 2266
-    start_y: 1592
-    end_x: 2479
-    end_y: 1850
+    start_x: 2441
+    start_y: 1519
+    end_x: 2788
+    end_y: 1942
   fangzhi_3:
-    start_x: 2046
-    start_y: 1253
-    end_x: 2262
-    end_y: 1515
+    start_x: 2070
+    start_y: 947
+    end_x: 2420
+    end_y: 1370
   fangzhi_4:
-    start_x: 2041
-    start_y: 1586
-    end_x: 2262
-    end_y: 1847
-
+    start_x: 2062
+    start_y: 1519
+    end_x: 2417
+    end_y: 1939
+  fangzhi_5:
+    start_x: 1691
+    start_y: 940
+    end_x: 2038
+    end_y: 1363
+  fangzhi_6:
+    start_x: 1680
+    start_y: 1514
+    end_x: 2034
+    end_y: 1936
+caijian:
+  model_path: C:\Users\13053\OneDrive\Code\Classify\models\caijian.onnx
+  input_img_h: 224
+  input_img_w: 224
+  conf_classify: 0.8
+  caijian:
+    start_x: 1012
+    start_y: 814
+    end_x: 2699
+    end_y: 2024
 is_save_img: true   #是否保存图片 true 保存 false 不保存
 output_dir: C:\Users\13053\OneDrive\Code\Classify\images

@@ -2,13 +2,14 @@ import cv2
 import time
 from config import ModelConfig, GlobalConfig
 import os
+import argparse
 
 
 class Classify:
-    def __init__(self, task):
+    def __init__(self, task, config_path):
         # 加载配置文件
-        self.model_config = ModelConfig(config_path=r'C:\Users\13053\OneDrive\Code\Classify\classify.yaml',model_name=task)
-        self.global_config = GlobalConfig(config_path=r'C:\Users\13053\OneDrive\Code\Classify\classify.yaml')
+        self.model_config = ModelConfig(config_path,model_name=task)
+        self.global_config = GlobalConfig(config_path)
 
         # 打印 ROI 区域
         #ModelConfig.print_roi_regions(self.config)
@@ -106,11 +107,11 @@ class Classify:
     # 分类逻辑  现在只有两个分类的情况，后续可以扩展
     def _classify_result(self, outputs_cl):
         if outputs_cl[0][0] > self.model_config.conf_classify and outputs_cl[0][0] - outputs_cl[0][1] > self.model_config.conf_classify / 2:
-            out_is = 'p'
+            out_is = 'Y'
         elif outputs_cl[0][1] > self.model_config.conf_classify and outputs_cl[0][1] - outputs_cl[0][0] > self.model_config.conf_classify / 2:
-            out_is = 'n'
+            out_is = 'N'
         else:
-            out_is = 'q'
+            out_is = 'Q'
         #print("-----------model_crucible_classify------------> ", out_is)
         return out_is
 
@@ -118,12 +119,18 @@ class Classify:
 
 
 if __name__ == '__main__':
+    #解析参数
+    argparse = argparse.ArgumentParser("Classify")
+    argparse.add_argument('--task', type=str, default='Re2000_top', help='任务名称')
+    argparse.add_argument('--img', type=str, default=r'C:\Users\13053\OneDrive\Code\Classify\Image_20250410184107042.jpg', help='图片路径')
+    argparse.add_argument('--config_path', type=str, default='classify.yaml', help='配置文件路径')
+    args = argparse.parse_args()
 
-    task = 'ganguo'
-    image = cv2.imread(r'C:\Users\13053\OneDrive\Code\Classify\Image_20250401163257694.jpg')
-    print(f"任务：{task}")
+    #主任务
+    image = cv2.imread(args.img)
+    print(f"任务：{args.task}")
     print("图像读取完成")
     # 初始化分类器
-    classify = Classify(task)
+    classify = Classify(args.task, args.config_path)
     result = classify.predict(image)
     print("分类结果:", result)

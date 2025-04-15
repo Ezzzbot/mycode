@@ -3,4 +3,6 @@
 pymodbus
 opencv-python
 pyyaml
-pyqt5
+nats-py
+#pyqt5    #用界面再加
+#nicegui  #用web再加

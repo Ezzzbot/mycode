@@ -21,7 +21,7 @@ if __name__ == "__main__":
     a = HandInEyeCalibration()
     x_camera = 2202
     y_camera = 1618
-    m = [[-0.000976969,   -0.013449341,   104.533955109],
+    m = [[-0.000976969, -0.013449341, 104.533955109],
          [0.013193269, -0.001274517, -251.564401739],]
     result = a.get_points_robot(x_camera, y_camera, m)
     print(f"转换的坐标为:{result}")

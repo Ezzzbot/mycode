@@ -1,0 +1,10 @@
+caijian:
+  model_path: C:\Users\13053\OneDrive\Code\Classify\models\caijian.onnx
+  input_img_h: 224
+  input_img_w: 224
+  conf_classify: 0.8
+  caijian:
+    start_x: 1012
+    start_y: 814
+    end_x: 2699
+    end_y: 2024
