@@ -5,118 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fefee622-9d45-4bf8-a58f-fd9a66771a26" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arm6D/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/images/cropped_Re2000top1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/images/cropped_Re2000top2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/models/Re2000_bottom.onnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classify/models/Re2000_top.onnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_tools/Image_20250412151039275.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_tools/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_tools/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nats/nats测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nicegui/web-main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/Image_20250401163257694.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whatttttt/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/配置文件等模板/demo.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arm6D/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Classify/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/classify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/classify.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/classify.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/crop.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_tools/图像裁剪.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_First.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_Fourth.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_Second.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_Third.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Classify/images/cropped_fangzhi_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classify/qt_choose_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_tools/图像选点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/机械臂矩阵转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot/机械臂矩阵转换.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/Web.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/Web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/config/cart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/config/cart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/config/crystal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/config/crystal.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/config/plastic_ercibiaoding.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/config/plastic_ercibiaoding.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/config/plastic_ganguo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/config/plastic_ganguo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/config/plastic_suliaopian.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/config/plastic_suliaopian.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/config/plastic_zhendong.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/config/plastic_zhendong.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170413.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170413.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170422.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170422.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170433.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170433.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170445.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170445.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170454.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170454.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170505.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170505.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170513.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170513.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170521.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170521.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170531.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170531.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/20241126170539.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/20241126170539.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/suliaopian.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/suliaopian.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/xiazhi9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/xiazhi9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/image/zhendongpan2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/image/zhendongpan2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/module/calibration_nine.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/module/calibration_nine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/module/图片采点.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/module/图片采点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/module/棋盘格标定.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/module/棋盘格标定.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/chat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/企鹅大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/企鹅大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/兔子大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/兔子大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/小鹿大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/小鹿大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/熊猫大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/熊猫大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/牛牛大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/牛牛大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/狗狗大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/狗狗大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/猪猪大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/猪猪大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/绵羊大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/绵羊大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/老虎大头贴.png" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/老虎大头贴.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/static/耶大头.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/耶大头.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.exe/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nicegui/web-main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/脚本模板/demo.service" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vkxn3SpWJ5wVCpsIseNq7cPop6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Arm6DAUBO.executor": "Run",
+    "Python.classify.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/13053/OneDrive/tools_exe",
+    "last_opened_file_path": "C:/Users/13053/OneDrive/tools_exe/Arm6D",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,11 +59,97 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13053\OneDrive\tools_exe\Arm6D" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\13053\OneDrive\tools_exe\Arm6D\AUBOSDK" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.classify">
+    <configuration name="Arm6DAUBO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tools_exe" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arm6D" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arm6D/Arm6DAUBO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="classify" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tools_exe" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classify" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classify/classify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tools_exe" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/whatttttt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/whatttttt/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.classify" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Arm6DAUBO" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -141,11 +161,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744703037268</updated>
-      <workItem from="1744703038471" duration="5227000" />
+      <workItem from="1744703038471" duration="6687000" />
+      <workItem from="1744728929276" duration="4486000" />
+      <workItem from="1744775291499" duration="353000" />
+      <workItem from="1744775659794" duration="1747000" />
+      <workItem from="1744869970766" duration="622000" />
+      <workItem from="1744873771350" duration="2152000" />
+      <workItem from="1744876413183" duration="1263000" />
+      <workItem from="1744880162143" duration="4000" />
+      <workItem from="1744942889886" duration="5775000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tools_exe$Arm6DAUBO.coverage" NAME="Arm6DAUBO 覆盖结果" MODIFIED="1744731463443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arm6D" />
+    <SUITE FILE_PATH="coverage/tools_exe$test.coverage" NAME="test 覆盖结果" MODIFIED="1744948743619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/whatttttt" />
+    <SUITE FILE_PATH="coverage/tools_exe$classify.coverage" NAME="classify 覆盖结果" MODIFIED="1744948950460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classify" />
   </component>
 </project>

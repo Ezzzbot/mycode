@@ -3,6 +3,9 @@ import time
 from config import ModelConfig, GlobalConfig
 import os
 import argparse
+import logging
+import time
+
 
 
 class Classify:
@@ -10,6 +13,8 @@ class Classify:
         # 加载配置文件
         self.model_config = ModelConfig(config_path,model_name=task)
         self.global_config = GlobalConfig(config_path)
+        #初始化日志
+        self.logger = self.log_init()
 
         # 打印 ROI 区域
         #ModelConfig.print_roi_regions(self.config)
@@ -28,7 +33,27 @@ class Classify:
         self.output_dir = self.global_config.output_dir
         print(f"图像保存路径:{self.global_config.output_dir}")
 
+    @staticmethod
+    def log_init():
+        # 创建一个 Logger，使用模块名作为名称
+        mylogger = logging.getLogger(__name__)
+        mylogger.setLevel(logging.DEBUG)  # 设置最低日志级别
 
+        # 创建文件处理器，用于将日志写入文件
+        file_handler = logging.FileHandler('demo.log', mode='a')
+        file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(file_formatter)
+
+        # 创建控制台处理器，用于将日志输出到控制台
+        console_handler = logging.StreamHandler()
+        console_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        console_handler.setFormatter(console_formatter)
+
+        # 将处理器添加到 Logger
+        mylogger.addHandler(file_handler)
+        mylogger.addHandler(console_handler)
+
+        return mylogger
     # 预处理输入图像
     def preprocess_image(self, image):
         # 调整图像大小为模型输入大小
@@ -74,6 +99,7 @@ class Classify:
             self.times = self.times + 1
 
         print("图像处理完成！")
+
         return preprocessed_images
 
     # 运行模型预测，如果不需要裁剪区域，直接预处理即可
@@ -119,6 +145,7 @@ class Classify:
 
 
 if __name__ == '__main__':
+
     #解析参数
     argparse = argparse.ArgumentParser("Classify")
     argparse.add_argument('--task', type=str, default='Re2000_top', help='任务名称')
